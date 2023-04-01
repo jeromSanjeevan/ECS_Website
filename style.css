@@ -1260,11 +1260,11 @@ li .descr {
 /* .mySlides{
     background-color: red;
 } */
-/* .slideshow-container {
+.slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
-} */
+}
 
 /* .slideshow-container img {
     height: 100%;
