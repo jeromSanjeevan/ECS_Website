@@ -21,9 +21,19 @@ menu_item.forEach((item) => {
 	item.addEventListener('click', () => {
 		hamburger.classList.toggle('active');
 		mobile_menu.classList.toggle('active');
+    
+
 	});
 });
 
+
+
+// 
+
+
+// 
+
+// Slider Setion.............
 
 let slideIndex = 0;
 showSlides();
