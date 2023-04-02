@@ -711,6 +711,26 @@ padding: 20px 30px;
 color: var(--main-color);
 } 
 
+
+@media(max-width:767px) {
+    .testim-content {
+        display: grid;
+        align-items: center;
+
+    }
+
+    .service-bottom {
+        display: flex;
+    }
+
+    .card {
+        margin-bottom: 20px;
+
+
+    }
+
+}
+
 /* End Testomanial Section */
 
 /* End About Section */
