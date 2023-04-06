@@ -35,22 +35,42 @@ menu_item.forEach((item) => {
 
 // Slider Setion.............
 
-let slideIndex = 0;
-showSlides();
+// let slideIndex = 0;
+// showSlides();
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+// function showSlides() {
+//   let i;
+//   let slides = document.getElementsByClassName("mySlides");
+//   let dots = document.getElementsByClassName("dot");
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";  
+//   }
+//   slideIndex++;
+//   if (slideIndex > slides.length) {slideIndex = 1}    
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex-1].style.display = "block";  
+//   dots[slideIndex-1].className += " active";
+//   setTimeout(showSlides, 2000); // Change image every 2 seconds
+// }
+
+
+var img = document.getElementById('slider-img');
+
+var slides=['./img/slide_1.jpg','./img/slide_2.jpg', './img/slide_3.jpg','./img/slide_4.jpg'];
+
+var Start=0;
+
+function slider(){
+    if(Start<slides.length){
+        Start=Start+1;
+    }
+    else{
+        Start=1;
+    }
+    console.log(img);
+    img.innerHTML = "<img src="+slides[Start-1]+">";
+   
 }
+setInterval(slider,7000);
