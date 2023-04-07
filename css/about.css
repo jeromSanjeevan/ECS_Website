@@ -39,14 +39,14 @@
     color: white;
     background-color: #002244;
     border-radius: 30px;
-    box-shadow: rgba(50, 50, 93, 0.30) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(50, 50, 93, 0.75) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     /* filter: drop-shadow(20px 5px 10px #000); */
     transition: 0.2s ease-out;
 }
 
 .about p:hover {
    
-    box-shadow: rgba(50, 50, 93, 0.45) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(50, 50, 93, 0.20) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .about-bottom {
