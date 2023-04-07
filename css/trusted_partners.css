@@ -1,0 +1,14 @@
+.truted-partners-bottom{
+    padding: 30px;
+    
+}
+
+.truted-partners-container{
+    box-shadow: rgba(50, 50, 93, 0.75) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: 0.3s ease-in-out;
+}
+
+.truted-partners-container:hover{
+    transform: translateY(-20px);
+    background-color: black
+}
