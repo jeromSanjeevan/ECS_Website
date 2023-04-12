@@ -6,6 +6,7 @@
     background-position: center;
     position: relative;
     margin-top: 20px;
+    padding: 10px;
     z-index: 1;
 }
 
@@ -16,7 +17,7 @@
     justify-content: center;
     max-width: 1700px;
     margin: 0 auto;
-    padding: 10;
+    padding: 100px 0;
 
 }
 
