@@ -12,6 +12,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+.brand img{
+    height: 70px;
+}
 
 html {
     font-size: 10px;
@@ -20,7 +23,7 @@ html {
 }
 
 body {
-    background-color: #F0F8FF;
+    /* background-color: #F0F8FF; */
     
     } 
 
@@ -78,6 +81,7 @@ p {
     display: block;
     margin: auto;
     transition: 0.5s;
+    
 }
 
 .underline:hover::after {
