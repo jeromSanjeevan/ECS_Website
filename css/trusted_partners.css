@@ -1,14 +1,47 @@
-.truted-partners-bottom{
+.truted-partners-bottom {
     padding: 30px;
-    
+
 }
 
-.truted-partners-container{
+.truted-partners-container {
     box-shadow: rgba(50, 50, 93, 0.75) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     transition: 0.3s ease-in-out;
 }
 
-.truted-partners-container:hover{
+.truted-partners-container:hover {
     transform: translateY(-20px);
     background-color: black
 }
+
+.row-tp {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 20px;
+
+}
+
+.tp-1 {
+    height: 90px;
+    width: 160px;
+    float: left;
+}
+
+.tp-1 img {
+    object-fit: contain;
+}
+
+@media(max-width:767px) {
+    .row-tp {
+      display:inline-block;
+      align-items: center;
+      justify-content:flex-start;
+   
+    }
+    .tp-1 {
+       padding-top: 20px;
+       height: 90px;
+       width: 360px;
+    }
+  }
