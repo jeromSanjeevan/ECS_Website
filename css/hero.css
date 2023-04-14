@@ -1,11 +1,11 @@
 
-/* #hero {
+#hero {
     background-image: url(./img/IMG_5549.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
     z-index: 1;
-} */
+}
 
 .box {
     width: 100%;
